@@ -43,7 +43,7 @@ h1{
     color:#F9FAF8;
 }
 
-a,p,.signup-btn{
+.container a,p,.signup-btn,.signup-btn-cta{
     font-size: 18px;
     color:#E5E7EB;
     text-decoration: none;
@@ -63,7 +63,7 @@ img{
     margin-right:5%;
 }
 
-.signup-btn{
+.signup-btn, .signup-btn-cta{
     background-color: #3882F6;
     border:none;
     border-radius: 5px;
@@ -113,4 +113,58 @@ img{
     height: 160px;
     border: solid 4px #3882F6;
     border-radius: 12px;
+}
+
+.quotation{
+    font-size: 36px;
+    font-weight: 10;
+    color:#1F2937;
+    text-align: justify;
+    font-style: italic;
+    margin:0px;
+}
+
+.quote-author{
+    margin:0px 0px 0px auto;
+    text-align: right;
+    font-weight: 800;
+    color:#1F2937;
+
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding:80px 260px;
+}
+
+.footer{
+    padding: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+.call-to-action-container{
+    padding:80px 30px;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding:30px 120px; 
+}
+
+.call-to-action-text{
+    padding-right: 80px;
+}
+
+.signup-btn-cta{
+    margin-left: 80px;
+    border: solid 3px white;
+    /*padding:12px 50px;
+    border-radius: 10px;
+    
+    background-color: transparent;*/
 }
